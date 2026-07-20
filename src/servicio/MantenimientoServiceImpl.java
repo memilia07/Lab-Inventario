@@ -5,6 +5,7 @@ import modelo.EstadoActivo;
 import modelo.RegistroMantenimiento;
 import repositorio.ActivoRepository;
 import repositorio.MantenimientoRepository;
+
 import java.time.LocalDate;
 import java.util.List;
 
@@ -14,7 +15,7 @@ public class MantenimientoServiceImpl implements IMantenimientoService {
     private final ActivoRepository activoRepository;
 
     public MantenimientoServiceImpl(MantenimientoRepository mantenimientoRepository,
-                                     ActivoRepository activoRepository) {
+            ActivoRepository activoRepository) {
         this.mantenimientoRepository = mantenimientoRepository;
         this.activoRepository = activoRepository;
     }
