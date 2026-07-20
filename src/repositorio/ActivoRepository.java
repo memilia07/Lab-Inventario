@@ -1,3 +1,4 @@
+package repositorio;
 
 import modelo.Activo;
 import java.util.List;
