@@ -1,5 +1,8 @@
 package modelo;
 
-public class EstadoActivo {
-
+public enum EstadoActivo {
+    DISPONIBLE,
+    ASIGNADO,
+    EN_MANTENIMIENTO,
+    DE_BAJA
 }
