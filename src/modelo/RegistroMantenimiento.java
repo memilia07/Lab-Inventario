@@ -1,3 +1,4 @@
+package modelo;
 
 import java.time.LocalDate;
 
@@ -52,4 +53,5 @@ public class RegistroMantenimiento {
         return String.format("Mant. #%d - Activo: %s - Fecha: %s - Costo: %.2f",
                 id, codigoActivo, fecha, costo);
     }
+    //.
 }
