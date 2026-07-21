@@ -53,4 +53,8 @@ public class RegistroMantenimiento {
         return String.format("Mant. #%d - Activo: %s - Fecha: %s - Costo: %.2f",
                 id, codigoActivo, fecha, costo);
     }
+<<<<<<< HEAD
+=======
+    //.
+>>>>>>> 00302adf0df58179ffc159e02911ec0da21b6ac1
 }

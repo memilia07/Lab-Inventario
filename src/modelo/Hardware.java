@@ -1,7 +1,13 @@
 package modelo;
 
+<<<<<<< HEAD
 import java.time.LocalDate;
 
+=======
+
+import java.time.LocalDate;
+
+>>>>>>> 00302adf0df58179ffc159e02911ec0da21b6ac1
 public class Hardware extends Activo {
 
     private int ramGb;
