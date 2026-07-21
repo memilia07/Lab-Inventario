@@ -1,6 +1,9 @@
 package db;
 
+<<<<<<< HEAD
+=======
 
+>>>>>>> 00302adf0df58179ffc159e02911ec0da21b6ac1
 import java.sql.Connection;
 import java.sql.DriverManager;
 import java.sql.SQLException;
