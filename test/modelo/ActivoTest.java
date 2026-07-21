@@ -1,21 +1,21 @@
 package modelo;
 
-import org.junit.jupiter.api.Test;
-import static org.junit.jupiter.api.Assertions.*;
+import org.junit.Test;
+import static org.junit.Assert.*;
 
 import java.time.LocalDate;
 
-class ActivoTest {
+public class ActivoTest {
 
     @Test
-    void testHardware() {
+    public void testHardware() {
         Hardware hw = new Hardware("HW01", "Laptop Dell", LocalDate.now(), EstadoActivo.DISPONIBLE, 16, "Intel i7");
         assertEquals(130.0, hw.calcularCostoMantenimiento(), 0.001);
         assertEquals("HARDWARE", hw.obtenerTipo());
     }
 
     @Test
-    void testPeriferico() {
+    public void testPeriferico() {
         Periferico mouse = new Periferico("PE01", "Mouse Logitech", LocalDate.now(), EstadoActivo.DISPONIBLE, "Mouse");
         assertEquals(15.0, mouse.calcularCostoMantenimiento(), 0.001);
 
@@ -25,7 +25,7 @@ class ActivoTest {
     }
 
     @Test
-    void testLicencia() {
+    public void testLicencia() {
         Licencia vigente = new Licencia("LI01", "Windows 11", LocalDate.now(), EstadoActivo.DISPONIBLE, LocalDate.now().plusDays(400));
         assertEquals(25.0, vigente.calcularCostoMantenimiento(), 0.001);
 

@@ -11,7 +11,7 @@ import servicio.IActivoService;
 import servicio.IMantenimientoService;
 import servicio.MantenimientoServiceImpl;
 import vista.ConsoleView;
-
+//.
 public class Main {
 
     public static void main(String[] args) {
