@@ -1,6 +1,9 @@
 package modelo;
 
+<<<<<<< HEAD
+=======
 
+>>>>>>> 00302adf0df58179ffc159e02911ec0da21b6ac1
 import java.time.LocalDate;
 import java.time.temporal.ChronoUnit;
 

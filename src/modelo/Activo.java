@@ -18,7 +18,11 @@ public abstract class Activo {
 
     public abstract double calcularCostoMantenimiento();
 
+<<<<<<< HEAD
+    
+=======
     // Identifica el tipo para persistencia. OCP: nuevos tipos solo implementan este metodo.
+>>>>>>> 00302adf0df58179ffc159e02911ec0da21b6ac1
     public abstract String obtenerTipo();
 
     public String getCodigo() {
